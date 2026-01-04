@@ -1,2 +1,5 @@
-# Ball-and-Beam-System__PID_controller
-Mathematical modeling and controller design of the Ball and Beam System with PID controller
+This project focuses on the mathematical modeling and control of the classical ball-and-beam system, which is a famous unstable and nonlinear benchmark in control engineering. The objective was to model the system dynamics and design a controller capable of stabilizing the ball at a desired position along the beam despite its inherent instability.
+
+The system was first modeled using Newtonian mechanics, deriving the nonlinear equations of motion that describe the relationship between the beam angle and the ball position. Around the equilibrium point, the model was linearized to obtain a suitable linear representation for controller design. Using this model, the system’s poles and zeros were analyzed to study its open-loop stability characteristics.
+
+A PID controller was then designed and tuned to achieve stable closed-loop behavior with acceptable transient performance. Time-domain criteria such as settling time, overshoot, and steady-state error were considered during the tuning process. The complete system, including the plant model and controller, was implemented and simulated in MATLAB and Simulink to evaluate the control performance.
